@@ -14,10 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Solve CORS
 app.use(
-  cors({
-    credentials: true,
-    origin: "https://fierce-caverns-09171.herokuapp.com/",
-  })
+  cors({ credentials: true, origin: "https://vinicius-reactgram.netlify.app" })
 );
 
 // Upload directory
